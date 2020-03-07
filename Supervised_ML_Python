@@ -205,6 +205,7 @@ from sklearn.metrics import accuracy_score
 accuracy_score(y_test,clf.predict(X_test))
 # Cross Validation
 cross_val_score(clf,X,y,scoring="accuracy")
+
 ```
 
 ### Precision and Recall
